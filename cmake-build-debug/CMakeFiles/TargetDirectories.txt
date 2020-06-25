@@ -1,0 +1,3 @@
+/home/douidik/dev/shelter/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/douidik/dev/shelter/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/douidik/dev/shelter/cmake-build-debug/CMakeFiles/shelter.dir

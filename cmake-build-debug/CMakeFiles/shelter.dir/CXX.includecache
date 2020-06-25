@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/douidik/dev/shelter/src/Game.cpp
+Game.h
+/home/douidik/dev/shelter/src/Game.h
+iostream
+-
+
+/home/douidik/dev/shelter/src/Game.h
+SDL2/SDL.h
+-
+
+/home/douidik/dev/shelter/src/main.cpp
+Game.h
+/home/douidik/dev/shelter/src/Game.h
+

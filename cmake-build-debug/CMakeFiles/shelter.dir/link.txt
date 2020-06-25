@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/shelter.dir/src/Game.cpp.o CMakeFiles/shelter.dir/src/main.cpp.o  -o shelter  -lSDL2 
