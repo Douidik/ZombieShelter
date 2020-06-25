@@ -7,8 +7,10 @@ file(GLOB_RECURSE src src/*.cpp)
 file(GLOB_RECURSE hdr src/*.h)
 include_directories(src/)
 
+include(FindPkgConfig)
+
 #dependencies
-find_package(sdl2 REQUIRED)
+pkg_search_module(SDL2 REQUIRED sdl2)
 include_directories(${SDL2_INCLUDE_DIRECTORIES})
 
 add_executable(shelter ${src} ${hdr})

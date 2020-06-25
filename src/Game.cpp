@@ -4,6 +4,7 @@
 
 #include "Game.h"
 #include <iostream>
+#include "Sprite.h"
 
 Game::Game(Args args) {
     /* Initializing SDL */
@@ -49,6 +50,8 @@ void Game::runLoop() {
     bool isRunning = true;
     SDL_Event event;
 
+    Sprite s("test.bmp", 0, 0, 400, 150, mp_renderer);
+
     while(isRunning) {
         /* Querying events */
         while(SDL_PollEvent(&event)) { // Checking each events for this frame
@@ -66,7 +69,7 @@ void Game::runLoop() {
         SDL_RenderClear(mp_renderer);
 
         //-drawing
-
+        s.render(mp_renderer);
 
         //-swapping buffers
         SDL_RenderPresent(mp_renderer);

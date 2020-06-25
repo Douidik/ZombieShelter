@@ -5,7 +5,7 @@
 		<Option title="shelter"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SDL2\;"/>
+		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/douidik/dev/shelter/cmake-build-debug"/>
@@ -90,14 +90,23 @@
 		<Unit filename="/home/douidik/dev/shelter/src/Game.h">
 			<Option target="shelter"/>
 		</Unit>
+		<Unit filename="/home/douidik/dev/shelter/src/Sprite.cpp">
+			<Option target="shelter"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/shelter/src/Sprite.h">
+			<Option target="shelter"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/shelter/src/Texture.cpp">
+			<Option target="shelter"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/shelter/src/Texture.h">
+			<Option target="shelter"/>
+		</Unit>
 		<Unit filename="/home/douidik/dev/shelter/src/main.cpp">
 			<Option target="shelter"/>
 		</Unit>
 		<Unit filename="/home/douidik/dev/shelter/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
-		</Unit>
-		<Unit filename="/home/douidik/dev/shelter/../../../../usr/lib/x86_64-linux-gnu/cmake/SDL2/sdl2-config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SDL2\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -3,6 +3,15 @@
 
 CMakeFiles/shelter.dir/src/Game.cpp.o: ../src/Game.cpp
 CMakeFiles/shelter.dir/src/Game.cpp.o: ../src/Game.h
+CMakeFiles/shelter.dir/src/Game.cpp.o: ../src/Sprite.h
+CMakeFiles/shelter.dir/src/Game.cpp.o: ../src/Texture.h
+
+CMakeFiles/shelter.dir/src/Sprite.cpp.o: ../src/Sprite.cpp
+CMakeFiles/shelter.dir/src/Sprite.cpp.o: ../src/Sprite.h
+CMakeFiles/shelter.dir/src/Sprite.cpp.o: ../src/Texture.h
+
+CMakeFiles/shelter.dir/src/Texture.cpp.o: ../src/Texture.cpp
+CMakeFiles/shelter.dir/src/Texture.cpp.o: ../src/Texture.h
 
 CMakeFiles/shelter.dir/src/main.cpp.o: ../src/Game.h
 CMakeFiles/shelter.dir/src/main.cpp.o: ../src/main.cpp

@@ -1,4 +1,4 @@
-/snap/clion/114/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/douidik/dev/shelter
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/douidik/dev/shelter
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/douidik/dev/shelter/cmake-build-debug
