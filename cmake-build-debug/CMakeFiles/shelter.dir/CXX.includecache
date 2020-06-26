@@ -6,13 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/home/douidik/dev/shelter/src/AnimatedSprite.h
+Sprite.h
+/home/douidik/dev/shelter/src/Sprite.h
+vector
+-
+
 /home/douidik/dev/shelter/src/Game.cpp
 Game.h
 /home/douidik/dev/shelter/src/Game.h
 iostream
 -
-Sprite.h
-/home/douidik/dev/shelter/src/Sprite.h
+AnimatedSprite.h
+/home/douidik/dev/shelter/src/AnimatedSprite.h
 
 /home/douidik/dev/shelter/src/Game.h
 SDL2/SDL.h

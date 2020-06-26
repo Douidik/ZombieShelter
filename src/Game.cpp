@@ -4,7 +4,7 @@
 
 #include "Game.h"
 #include <iostream>
-#include "Sprite.h"
+#include "AnimatedSprite.h"
 
 Game::Game(Args args) {
     /* Initializing SDL */
@@ -49,10 +49,15 @@ Game::~Game() {
 void Game::runLoop() {
     bool isRunning = true;
     SDL_Event event;
+    AnimatedSprite s("test.bmp", 8, 1, 400, 400, 150, 500, 500, mp_renderer);
 
-    Sprite s("test.bmp", 0, 0, 400, 150, mp_renderer);
+    Uint32 dt = 0, lt = 0;
 
     while(isRunning) {
+        Uint32 time = SDL_GetTicks();
+        dt = time - lt;
+        lt = time;
+
         /* Querying events */
         while(SDL_PollEvent(&event)) { // Checking each events for this frame
             switch(event.type) {
@@ -69,7 +74,7 @@ void Game::runLoop() {
         SDL_RenderClear(mp_renderer);
 
         //-drawing
-        s.render(mp_renderer);
+        s.animatedRender(dt, mp_renderer);
 
         //-swapping buffers
         SDL_RenderPresent(mp_renderer);

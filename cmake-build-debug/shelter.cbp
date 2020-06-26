@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/douidik/dev/shelter/src/AnimatedSprite.cpp">
+			<Option target="shelter"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/shelter/src/AnimatedSprite.h">
+			<Option target="shelter"/>
+		</Unit>
 		<Unit filename="/home/douidik/dev/shelter/src/Game.cpp">
 			<Option target="shelter"/>
 		</Unit>

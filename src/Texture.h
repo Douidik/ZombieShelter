@@ -17,8 +17,17 @@ public:
         return mp_texture;
     }
 
+    inline int width() const {
+        return m_width;
+    }
+
+    inline int height() const {
+        return m_height;
+    }
+
 private:
     SDL_Texture* mp_texture;
+    int m_width, m_height;
 };
 
 

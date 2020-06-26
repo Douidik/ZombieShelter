@@ -25,7 +25,7 @@ public:
 
     void render(SDL_Renderer *p_renderer);
 
-private:
+protected:
     Texture m_texture;
     SDL_Rect m_transform;
 };

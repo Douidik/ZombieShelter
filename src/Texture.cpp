@@ -9,6 +9,10 @@ Texture::Texture(const char *path, SDL_Renderer* p_renderer) {
     mp_texture = SDL_CreateTextureFromSurface(p_renderer, p_surface);
 
     SDL_FreeSurface(p_surface);
+
+    /* Retrieving texture infos */
+    SDL_QueryTexture(mp_texture, nullptr, nullptr, &m_width, &m_height);
+
 }
 
 Texture::~Texture() {

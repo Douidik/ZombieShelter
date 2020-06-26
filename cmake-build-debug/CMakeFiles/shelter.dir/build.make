@@ -57,9 +57,22 @@ include CMakeFiles/shelter.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/shelter.dir/flags.make
 
+CMakeFiles/shelter.dir/src/AnimatedSprite.cpp.o: CMakeFiles/shelter.dir/flags.make
+CMakeFiles/shelter.dir/src/AnimatedSprite.cpp.o: ../src/AnimatedSprite.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/douidik/dev/shelter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/shelter.dir/src/AnimatedSprite.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shelter.dir/src/AnimatedSprite.cpp.o -c /home/douidik/dev/shelter/src/AnimatedSprite.cpp
+
+CMakeFiles/shelter.dir/src/AnimatedSprite.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shelter.dir/src/AnimatedSprite.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/douidik/dev/shelter/src/AnimatedSprite.cpp > CMakeFiles/shelter.dir/src/AnimatedSprite.cpp.i
+
+CMakeFiles/shelter.dir/src/AnimatedSprite.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shelter.dir/src/AnimatedSprite.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/douidik/dev/shelter/src/AnimatedSprite.cpp -o CMakeFiles/shelter.dir/src/AnimatedSprite.cpp.s
+
 CMakeFiles/shelter.dir/src/Game.cpp.o: CMakeFiles/shelter.dir/flags.make
 CMakeFiles/shelter.dir/src/Game.cpp.o: ../src/Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/douidik/dev/shelter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/shelter.dir/src/Game.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/douidik/dev/shelter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/shelter.dir/src/Game.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shelter.dir/src/Game.cpp.o -c /home/douidik/dev/shelter/src/Game.cpp
 
 CMakeFiles/shelter.dir/src/Game.cpp.i: cmake_force
@@ -72,7 +85,7 @@ CMakeFiles/shelter.dir/src/Game.cpp.s: cmake_force
 
 CMakeFiles/shelter.dir/src/Sprite.cpp.o: CMakeFiles/shelter.dir/flags.make
 CMakeFiles/shelter.dir/src/Sprite.cpp.o: ../src/Sprite.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/douidik/dev/shelter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/shelter.dir/src/Sprite.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/douidik/dev/shelter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/shelter.dir/src/Sprite.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shelter.dir/src/Sprite.cpp.o -c /home/douidik/dev/shelter/src/Sprite.cpp
 
 CMakeFiles/shelter.dir/src/Sprite.cpp.i: cmake_force
@@ -85,7 +98,7 @@ CMakeFiles/shelter.dir/src/Sprite.cpp.s: cmake_force
 
 CMakeFiles/shelter.dir/src/Texture.cpp.o: CMakeFiles/shelter.dir/flags.make
 CMakeFiles/shelter.dir/src/Texture.cpp.o: ../src/Texture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/douidik/dev/shelter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/shelter.dir/src/Texture.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/douidik/dev/shelter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/shelter.dir/src/Texture.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shelter.dir/src/Texture.cpp.o -c /home/douidik/dev/shelter/src/Texture.cpp
 
 CMakeFiles/shelter.dir/src/Texture.cpp.i: cmake_force
@@ -98,7 +111,7 @@ CMakeFiles/shelter.dir/src/Texture.cpp.s: cmake_force
 
 CMakeFiles/shelter.dir/src/main.cpp.o: CMakeFiles/shelter.dir/flags.make
 CMakeFiles/shelter.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/douidik/dev/shelter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/shelter.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/douidik/dev/shelter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/shelter.dir/src/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shelter.dir/src/main.cpp.o -c /home/douidik/dev/shelter/src/main.cpp
 
 CMakeFiles/shelter.dir/src/main.cpp.i: cmake_force
@@ -111,6 +124,7 @@ CMakeFiles/shelter.dir/src/main.cpp.s: cmake_force
 
 # Object files for target shelter
 shelter_OBJECTS = \
+"CMakeFiles/shelter.dir/src/AnimatedSprite.cpp.o" \
 "CMakeFiles/shelter.dir/src/Game.cpp.o" \
 "CMakeFiles/shelter.dir/src/Sprite.cpp.o" \
 "CMakeFiles/shelter.dir/src/Texture.cpp.o" \
@@ -119,13 +133,14 @@ shelter_OBJECTS = \
 # External object files for target shelter
 shelter_EXTERNAL_OBJECTS =
 
+shelter: CMakeFiles/shelter.dir/src/AnimatedSprite.cpp.o
 shelter: CMakeFiles/shelter.dir/src/Game.cpp.o
 shelter: CMakeFiles/shelter.dir/src/Sprite.cpp.o
 shelter: CMakeFiles/shelter.dir/src/Texture.cpp.o
 shelter: CMakeFiles/shelter.dir/src/main.cpp.o
 shelter: CMakeFiles/shelter.dir/build.make
 shelter: CMakeFiles/shelter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/douidik/dev/shelter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable shelter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/douidik/dev/shelter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable shelter"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/shelter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

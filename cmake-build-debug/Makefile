@@ -123,6 +123,33 @@ shelter/fast:
 	$(MAKE) -f CMakeFiles/shelter.dir/build.make CMakeFiles/shelter.dir/build
 .PHONY : shelter/fast
 
+src/AnimatedSprite.o: src/AnimatedSprite.cpp.o
+
+.PHONY : src/AnimatedSprite.o
+
+# target to build an object file
+src/AnimatedSprite.cpp.o:
+	$(MAKE) -f CMakeFiles/shelter.dir/build.make CMakeFiles/shelter.dir/src/AnimatedSprite.cpp.o
+.PHONY : src/AnimatedSprite.cpp.o
+
+src/AnimatedSprite.i: src/AnimatedSprite.cpp.i
+
+.PHONY : src/AnimatedSprite.i
+
+# target to preprocess a source file
+src/AnimatedSprite.cpp.i:
+	$(MAKE) -f CMakeFiles/shelter.dir/build.make CMakeFiles/shelter.dir/src/AnimatedSprite.cpp.i
+.PHONY : src/AnimatedSprite.cpp.i
+
+src/AnimatedSprite.s: src/AnimatedSprite.cpp.s
+
+.PHONY : src/AnimatedSprite.s
+
+# target to generate assembly for a file
+src/AnimatedSprite.cpp.s:
+	$(MAKE) -f CMakeFiles/shelter.dir/build.make CMakeFiles/shelter.dir/src/AnimatedSprite.cpp.s
+.PHONY : src/AnimatedSprite.cpp.s
+
 src/Game.o: src/Game.cpp.o
 
 .PHONY : src/Game.o
@@ -240,6 +267,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... shelter"
+	@echo "... src/AnimatedSprite.o"
+	@echo "... src/AnimatedSprite.i"
+	@echo "... src/AnimatedSprite.s"
 	@echo "... src/Game.o"
 	@echo "... src/Game.i"
 	@echo "... src/Game.s"

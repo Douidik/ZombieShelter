@@ -74,12 +74,12 @@ clean: CMakeFiles/shelter.dir/clean
 CMakeFiles/shelter.dir/all:
 	$(MAKE) -f CMakeFiles/shelter.dir/build.make CMakeFiles/shelter.dir/depend
 	$(MAKE) -f CMakeFiles/shelter.dir/build.make CMakeFiles/shelter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/douidik/dev/shelter/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target shelter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/douidik/dev/shelter/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target shelter"
 .PHONY : CMakeFiles/shelter.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/shelter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/douidik/dev/shelter/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/douidik/dev/shelter/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/shelter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/douidik/dev/shelter/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/shelter.dir/rule
