@@ -4,7 +4,7 @@
 
 #include "Game.h"
 #include <iostream>
-#include "AnimatedSprite.h"
+#include "sprite/AnimatedSprite.h"
 
 Game::Game(Args args) {
     /* Initializing SDL */

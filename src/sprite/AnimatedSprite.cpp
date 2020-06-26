@@ -13,7 +13,7 @@ AnimatedSprite::AnimatedSprite(const char *path,
                                int w,
                                int h,
                                SDL_Renderer *p_renderer)
-    :Sprite(path, x, y, w, h, p_renderer), m_timer(0)
+    :Sprite(path, x, y, w, h, p_renderer), m_delay(delay), m_timer(0)
 {
     /* initializing the rect sources for the animation */
     for(uint y = 0; y < columns; y++) {

@@ -84,22 +84,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/douidik/dev/shelter/src/AnimatedSprite.cpp">
-			<Option target="shelter"/>
-		</Unit>
-		<Unit filename="/home/douidik/dev/shelter/src/AnimatedSprite.h">
-			<Option target="shelter"/>
-		</Unit>
 		<Unit filename="/home/douidik/dev/shelter/src/Game.cpp">
 			<Option target="shelter"/>
 		</Unit>
 		<Unit filename="/home/douidik/dev/shelter/src/Game.h">
-			<Option target="shelter"/>
-		</Unit>
-		<Unit filename="/home/douidik/dev/shelter/src/Sprite.cpp">
-			<Option target="shelter"/>
-		</Unit>
-		<Unit filename="/home/douidik/dev/shelter/src/Sprite.h">
 			<Option target="shelter"/>
 		</Unit>
 		<Unit filename="/home/douidik/dev/shelter/src/Texture.cpp">
@@ -109,6 +97,18 @@
 			<Option target="shelter"/>
 		</Unit>
 		<Unit filename="/home/douidik/dev/shelter/src/main.cpp">
+			<Option target="shelter"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/shelter/src/sprite/AnimatedSprite.cpp">
+			<Option target="shelter"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/shelter/src/sprite/AnimatedSprite.h">
+			<Option target="shelter"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/shelter/src/sprite/Sprite.cpp">
+			<Option target="shelter"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/shelter/src/sprite/Sprite.h">
 			<Option target="shelter"/>
 		</Unit>
 		<Unit filename="/home/douidik/dev/shelter/CMakeLists.txt">

@@ -6,10 +6,8 @@
 
 #IncludeRegexTransform: 
 
-/home/douidik/dev/shelter/src/AnimatedSprite.h
-Sprite.h
-/home/douidik/dev/shelter/src/Sprite.h
-vector
+../src/Texture.h
+SDL2/SDL.h
 -
 
 /home/douidik/dev/shelter/src/Game.cpp
@@ -17,20 +15,22 @@ Game.h
 /home/douidik/dev/shelter/src/Game.h
 iostream
 -
-AnimatedSprite.h
-/home/douidik/dev/shelter/src/AnimatedSprite.h
+sprite/AnimatedSprite.h
+/home/douidik/dev/shelter/src/sprite/AnimatedSprite.h
 
 /home/douidik/dev/shelter/src/Game.h
 SDL2/SDL.h
 -
 
-/home/douidik/dev/shelter/src/Sprite.h
+/home/douidik/dev/shelter/src/sprite/AnimatedSprite.h
+Sprite.h
+/home/douidik/dev/shelter/src/sprite/Sprite.h
+vector
+-
+
+/home/douidik/dev/shelter/src/sprite/Sprite.h
 SDL2/SDL.h
 -
 Texture.h
-/home/douidik/dev/shelter/src/Texture.h
-
-/home/douidik/dev/shelter/src/Texture.h
-SDL2/SDL.h
--
+/home/douidik/dev/shelter/src/sprite/Texture.h
 

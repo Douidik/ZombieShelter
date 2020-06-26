@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/douidik/dev/shelter/src/AnimatedSprite.cpp" "/home/douidik/dev/shelter/cmake-build-debug/CMakeFiles/shelter.dir/src/AnimatedSprite.cpp.o"
   "/home/douidik/dev/shelter/src/Game.cpp" "/home/douidik/dev/shelter/cmake-build-debug/CMakeFiles/shelter.dir/src/Game.cpp.o"
-  "/home/douidik/dev/shelter/src/Sprite.cpp" "/home/douidik/dev/shelter/cmake-build-debug/CMakeFiles/shelter.dir/src/Sprite.cpp.o"
   "/home/douidik/dev/shelter/src/Texture.cpp" "/home/douidik/dev/shelter/cmake-build-debug/CMakeFiles/shelter.dir/src/Texture.cpp.o"
   "/home/douidik/dev/shelter/src/main.cpp" "/home/douidik/dev/shelter/cmake-build-debug/CMakeFiles/shelter.dir/src/main.cpp.o"
+  "/home/douidik/dev/shelter/src/sprite/AnimatedSprite.cpp" "/home/douidik/dev/shelter/cmake-build-debug/CMakeFiles/shelter.dir/src/sprite/AnimatedSprite.cpp.o"
+  "/home/douidik/dev/shelter/src/sprite/Sprite.cpp" "/home/douidik/dev/shelter/cmake-build-debug/CMakeFiles/shelter.dir/src/sprite/Sprite.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

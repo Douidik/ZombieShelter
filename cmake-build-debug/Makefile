@@ -123,33 +123,6 @@ shelter/fast:
 	$(MAKE) -f CMakeFiles/shelter.dir/build.make CMakeFiles/shelter.dir/build
 .PHONY : shelter/fast
 
-src/AnimatedSprite.o: src/AnimatedSprite.cpp.o
-
-.PHONY : src/AnimatedSprite.o
-
-# target to build an object file
-src/AnimatedSprite.cpp.o:
-	$(MAKE) -f CMakeFiles/shelter.dir/build.make CMakeFiles/shelter.dir/src/AnimatedSprite.cpp.o
-.PHONY : src/AnimatedSprite.cpp.o
-
-src/AnimatedSprite.i: src/AnimatedSprite.cpp.i
-
-.PHONY : src/AnimatedSprite.i
-
-# target to preprocess a source file
-src/AnimatedSprite.cpp.i:
-	$(MAKE) -f CMakeFiles/shelter.dir/build.make CMakeFiles/shelter.dir/src/AnimatedSprite.cpp.i
-.PHONY : src/AnimatedSprite.cpp.i
-
-src/AnimatedSprite.s: src/AnimatedSprite.cpp.s
-
-.PHONY : src/AnimatedSprite.s
-
-# target to generate assembly for a file
-src/AnimatedSprite.cpp.s:
-	$(MAKE) -f CMakeFiles/shelter.dir/build.make CMakeFiles/shelter.dir/src/AnimatedSprite.cpp.s
-.PHONY : src/AnimatedSprite.cpp.s
-
 src/Game.o: src/Game.cpp.o
 
 .PHONY : src/Game.o
@@ -176,33 +149,6 @@ src/Game.s: src/Game.cpp.s
 src/Game.cpp.s:
 	$(MAKE) -f CMakeFiles/shelter.dir/build.make CMakeFiles/shelter.dir/src/Game.cpp.s
 .PHONY : src/Game.cpp.s
-
-src/Sprite.o: src/Sprite.cpp.o
-
-.PHONY : src/Sprite.o
-
-# target to build an object file
-src/Sprite.cpp.o:
-	$(MAKE) -f CMakeFiles/shelter.dir/build.make CMakeFiles/shelter.dir/src/Sprite.cpp.o
-.PHONY : src/Sprite.cpp.o
-
-src/Sprite.i: src/Sprite.cpp.i
-
-.PHONY : src/Sprite.i
-
-# target to preprocess a source file
-src/Sprite.cpp.i:
-	$(MAKE) -f CMakeFiles/shelter.dir/build.make CMakeFiles/shelter.dir/src/Sprite.cpp.i
-.PHONY : src/Sprite.cpp.i
-
-src/Sprite.s: src/Sprite.cpp.s
-
-.PHONY : src/Sprite.s
-
-# target to generate assembly for a file
-src/Sprite.cpp.s:
-	$(MAKE) -f CMakeFiles/shelter.dir/build.make CMakeFiles/shelter.dir/src/Sprite.cpp.s
-.PHONY : src/Sprite.cpp.s
 
 src/Texture.o: src/Texture.cpp.o
 
@@ -258,6 +204,60 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/shelter.dir/build.make CMakeFiles/shelter.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/sprite/AnimatedSprite.o: src/sprite/AnimatedSprite.cpp.o
+
+.PHONY : src/sprite/AnimatedSprite.o
+
+# target to build an object file
+src/sprite/AnimatedSprite.cpp.o:
+	$(MAKE) -f CMakeFiles/shelter.dir/build.make CMakeFiles/shelter.dir/src/sprite/AnimatedSprite.cpp.o
+.PHONY : src/sprite/AnimatedSprite.cpp.o
+
+src/sprite/AnimatedSprite.i: src/sprite/AnimatedSprite.cpp.i
+
+.PHONY : src/sprite/AnimatedSprite.i
+
+# target to preprocess a source file
+src/sprite/AnimatedSprite.cpp.i:
+	$(MAKE) -f CMakeFiles/shelter.dir/build.make CMakeFiles/shelter.dir/src/sprite/AnimatedSprite.cpp.i
+.PHONY : src/sprite/AnimatedSprite.cpp.i
+
+src/sprite/AnimatedSprite.s: src/sprite/AnimatedSprite.cpp.s
+
+.PHONY : src/sprite/AnimatedSprite.s
+
+# target to generate assembly for a file
+src/sprite/AnimatedSprite.cpp.s:
+	$(MAKE) -f CMakeFiles/shelter.dir/build.make CMakeFiles/shelter.dir/src/sprite/AnimatedSprite.cpp.s
+.PHONY : src/sprite/AnimatedSprite.cpp.s
+
+src/sprite/Sprite.o: src/sprite/Sprite.cpp.o
+
+.PHONY : src/sprite/Sprite.o
+
+# target to build an object file
+src/sprite/Sprite.cpp.o:
+	$(MAKE) -f CMakeFiles/shelter.dir/build.make CMakeFiles/shelter.dir/src/sprite/Sprite.cpp.o
+.PHONY : src/sprite/Sprite.cpp.o
+
+src/sprite/Sprite.i: src/sprite/Sprite.cpp.i
+
+.PHONY : src/sprite/Sprite.i
+
+# target to preprocess a source file
+src/sprite/Sprite.cpp.i:
+	$(MAKE) -f CMakeFiles/shelter.dir/build.make CMakeFiles/shelter.dir/src/sprite/Sprite.cpp.i
+.PHONY : src/sprite/Sprite.cpp.i
+
+src/sprite/Sprite.s: src/sprite/Sprite.cpp.s
+
+.PHONY : src/sprite/Sprite.s
+
+# target to generate assembly for a file
+src/sprite/Sprite.cpp.s:
+	$(MAKE) -f CMakeFiles/shelter.dir/build.make CMakeFiles/shelter.dir/src/sprite/Sprite.cpp.s
+.PHONY : src/sprite/Sprite.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -267,21 +267,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... shelter"
-	@echo "... src/AnimatedSprite.o"
-	@echo "... src/AnimatedSprite.i"
-	@echo "... src/AnimatedSprite.s"
 	@echo "... src/Game.o"
 	@echo "... src/Game.i"
 	@echo "... src/Game.s"
-	@echo "... src/Sprite.o"
-	@echo "... src/Sprite.i"
-	@echo "... src/Sprite.s"
 	@echo "... src/Texture.o"
 	@echo "... src/Texture.i"
 	@echo "... src/Texture.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/sprite/AnimatedSprite.o"
+	@echo "... src/sprite/AnimatedSprite.i"
+	@echo "... src/sprite/AnimatedSprite.s"
+	@echo "... src/sprite/Sprite.o"
+	@echo "... src/sprite/Sprite.i"
+	@echo "... src/sprite/Sprite.s"
 .PHONY : help
 
 
